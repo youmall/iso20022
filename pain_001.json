@@ -1,0 +1,302 @@
+{
+    "customer_credit_transfer_initiation_v09": {
+        "group_header": {
+            "message_identification": "Message Reference",
+            "creation_date_time": "2024-01-08T09:45:00.001+00:00",
+            "number_of_transactions": "1",
+            "initiating_party": {
+                "name": "Visa Payments Limited",
+                "identification": {
+                    "organisation_identification": {
+                        "other": [
+                            {
+                                "identification": "VPL customer ID"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        "payment_information": [
+            {
+                "payment_information_identification": "VPL Payment Inf Id",
+                "payment_method": "TRF",
+                "requested_execution_date": {
+                    "date": "2024-01-08"
+                },
+                "debtor": {
+                    "name": "Visa Payments Limited",
+                    "postal_address": {
+                        "street_name": "Sheldon Square",
+                        "building_number": "1",
+                        "post_code": "W2 6TT",
+                        "town_name": "London",
+                        "country": "GB"
+                    }
+                },
+                "debtor_account": {
+                    "identification": {
+                        "iban": "UA213223130000026007233566001"
+                    },
+                    "currency": "UAH"
+                },
+                "debtor_agent": {
+                    "financial_institution_identification": {
+                        "bicfi": "PARTUA22",
+                        "clearing_system_member_identification": {
+                            "member_identification": "123456"
+                        },
+                        "name": "Partner Name"
+                    }
+                },
+                "credit_transfer_transaction_information": [
+                    {
+                        "payment_identification": {
+                            "instruction_identification": "VPL 15 char payment ID1",
+                            "end_to_end_identification": "Payer Reference1"
+                        },
+                        "payment_type_information": {
+                            "service_level": [
+                                {
+                                    "code": "Inst"
+                                }
+                            ]
+                        },
+                        "amount": {
+                            "instructed_amount": {
+                                "amount": "1.00",
+                                "currency": "UAH"
+                            }
+                        },
+                        "ultimate_debtor": {
+                            "name": "Po",
+                            "postal_address": {
+                                "street_name": "ADDRESS LINE1",
+                                "post_code": "SW1A 2AB",
+                                "town_name": "London",
+                                "country": "GB",
+                                "address_line": [
+                                    "ADDRESS LINE2"
+                                ]
+                            },
+                            "identification": {
+                                "private_identification": {
+                                    "date_and_place_of_birth": {
+                                        "birth_date": "2000-02-28",
+                                        "city_of_birth": "London",
+                                        "country_of_birth": "GB"
+                                    },
+                                    "other": [
+                                        {
+                                            "identification": "PAYER ACCOUNT NUMBER",
+                                            "scheme_name": {
+                                                "code": "CUST"
+                                            },
+                                            "issuer": "GB"
+                                        },
+                                        {
+                                            "identification": "PAYER PASSPORT NUMBER",
+                                            "scheme_name": {
+                                                "code": "CCPT"
+                                            },
+                                            "issuer": "GB"
+
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "intermediary_agent1": {
+                            "financial_institution_identification": {
+                                "bicfi": "BARCGB22",
+                                "name": "Barclays",
+                                "postal_address": {
+                                    "country": "GB"
+                                }
+                            }
+                        },
+                        "creditor_agent": {
+                            "financial_institution_identification": {
+                                "bicfi": "BENEUA22",
+                                "clearing_system_member_identification": {
+                                    "member_identification": "123456"
+                                },
+                                "name": "Bene Bank Name",
+                                "postal_address": {
+                                    "country": "UA"
+                                }
+                            }
+                        },
+                        "creditor": {
+                            "name": "Andriy Shevchenko",
+                            "postal_address": {
+                                "street_name": "C ADDRESS LINE1",
+                                "post_code": "91610",
+                                "town_name": "Kyiv",
+                                "country": "UA",
+                                "address_line": [
+                                    "C ADDRESS LINE2"
+                                ]
+                            },
+                            "identification": {
+                                "private_identification": {
+                                    "date_and_place_of_birth": {
+                                        "birth_date": "2000-02-28",
+                                        "city_of_birth": "Kyiv",
+                                        "country_of_birth": "UA"
+                                    },
+                                    "other": [
+                                        {
+                                            "identification": "BENE PASSPORT NUMBER",
+                                            "scheme_name": {
+                                                "code": "CCPT"
+                                            },
+                                            "issuer": "UA"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "creditor_account": {
+                            "identification": {
+                                "iban": "UA213223130000026007233566888"
+                            },
+                            "name": "Payee Account Name"
+                        },
+                        "purpose": {
+                            "code": "MP2P"
+                        },
+                        "remittance_information": {
+                            "unstructured": [
+                                "Remittance Info line 1",
+                                "Remittance Info line 2"
+                            ]
+                        }
+                    },
+                    {
+                        "payment_identification": {
+                            "instruction_identification": "VPL 15 char payment ID1",
+                            "end_to_end_identification": "Payer Reference1"
+                        },
+                        "payment_type_information": {
+                            "service_level": [
+                                {
+                                    "code": "Inst"
+                                }
+                            ]
+                        },
+                        "amount": {
+                            "instructed_amount": {
+                                "amount": "1.00",
+                                "currency": "UAH"
+                            }
+                        },
+                        "ultimate_debtor": {
+                            "name": "Po",
+                            "postal_address": {
+                                "street_name": "ADDRESS LINE1",
+                                "post_code": "SW1A 2AB",
+                                "town_name": "London",
+                                "country": "GB",
+                                "address_line": [
+                                    "ADDRESS LINE2"
+                                ]
+                            },
+                            "identification": {
+                                "private_identification": {
+                                    "date_and_place_of_birth": {
+                                        "birth_date": "2000-02-28",
+                                        "city_of_birth": "London",
+                                        "country_of_birth": "GB"
+                                    },
+                                    "other": [
+                                        {
+                                            "identification": "PAYER ACCOUNT NUMBER",
+                                            "scheme_name": {
+                                                "code": "CUST"
+                                            },
+                                            "issuer": "GB"
+                                        },
+                                        {
+                                            "identification": "PAYER PASSPORT NUMBER",
+                                            "scheme_name": {
+                                                "code": "CCPT"
+                                            },
+                                            "issuer": "GB"										
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "intermediary_agent1": {
+                            "financial_institution_identification": {
+                                "bicfi": "BARCGB22",
+                                "name": "Barclays",
+                                "postal_address": {
+                                    "country": "GB"
+                                }
+                            }
+                        },
+                        "creditor_agent": {
+                            "financial_institution_identification": {
+                                "bicfi": "BENEUA22",
+                                "clearing_system_member_identification": {
+                                    "member_identification": "123456"
+                                },
+                                "name": "Bene Bank Name",
+                                "postal_address": {
+                                    "country": "UA"
+                                }
+                            }
+                        },
+                        "creditor": {
+                            "name": "Andriy Shevchenko",
+                            "postal_address": {
+                                "street_name": "C ADDRESS LINE1",
+                                "post_code": "91610",
+                                "town_name": "Kyiv",
+                                "country": "UA",
+                                "address_line": [
+                                    "C ADDRESS LINE2"
+                                ]
+                            },
+                            "identification": {
+                                "private_identification": {
+                                    "date_and_place_of_birth": {
+                                        "birth_date": "2000-02-28",
+                                        "city_of_birth": "Kyiv",
+                                        "country_of_birth": "UA"
+                                    },
+                                    "other": [
+                                        {
+                                            "identification": "BENE PASSPORT NUMBER",
+                                            "scheme_name": {
+                                                "code": "CCPT"
+                                            },
+											"issuer": "UA"
+                                        }
+                                    ]
+                                }
+                            }
+                        },
+                        "creditor_account": {
+                            "identification": {
+                                "iban": "UA213223130000026007233566888"
+                            },
+                            "name": "Payee Account Name"
+                        },
+                        "purpose": {
+                            "code": "MP2P"
+                        },
+                        "remittance_information": {
+                            "unstructured": [
+                                "Remittance Info line 1",
+                                "Remittance Info line 2"
+                            ]
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
